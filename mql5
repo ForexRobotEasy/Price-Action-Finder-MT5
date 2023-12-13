@@ -1,0 +1,98 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                Price Action Finder MT5 |
+//|                                             Developer: Forex Robot Easy Team |
+//|                                             Website: forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| Customizable Parameters                                          |
+//+------------------------------------------------------------------+
+input bool ShowForceBarPattern = true;    // Show or hide Force Bar Pattern
+input bool ShowPPRPattern = true;         // Show or hide PPR Pattern
+input bool ShowOutsideBarPattern = true;  // Show or hide Outside Bar Pattern
+input bool ShowOutsideBarClosingPattern = true;  // Show or hide Outside Bar Pattern on Closing
+input bool ShowInsideBarPattern = true;   // Show or hide Inside Bar Pattern
+input bool ShowPinBarPattern = true;      // Show or hide Pin Bar Pattern
+input bool ShowHangedManPattern = true;   // Show or hide Hanged Man Pattern
+
+//+------------------------------------------------------------------+
+//| OnTick function                                                  |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Implement Price Action pattern analysis here
+   
+   if(ShowForceBarPattern)
+   {
+      // Analyze Force Bar Pattern
+   }
+   
+   if(ShowPPRPattern)
+   {
+      // Analyze PPR Pattern
+   }
+   
+   if(ShowOutsideBarPattern)
+   {
+      // Analyze Outside Bar Pattern
+   }
+   
+   if(ShowOutsideBarClosingPattern)
+   {
+      // Analyze Outside Bar Pattern on Closing
+   }
+   
+   if(ShowInsideBarPattern)
+   {
+      // Analyze Inside Bar Pattern
+   }
+   
+   if(ShowPinBarPattern)
+   {
+      // Analyze Pin Bar Pattern
+   }
+   
+   if(ShowHangedManPattern)
+   {
+      // Analyze Hanged Man Pattern
+   }
+}
+
+//+------------------------------------------------------------------+
+//| Custom Functions                                                 |
+//+------------------------------------------------------------------+
+void AnalyzeForceBarPattern()
+{
+   // Implement Force Bar Pattern analysis code here
+}
+
+void AnalyzePPRPattern()
+{
+   // Implement PPR Pattern analysis code here
+}
+
+void AnalyzeOutsideBarPattern()
+{
+   // Implement Outside Bar Pattern analysis code here
+}
+
+void AnalyzeOutsideBarClosingPattern()
+{
+   // Implement Outside Bar Pattern on Closing analysis code here
+}
+
+void AnalyzeInsideBarPattern()
+{
+   // Implement Inside Bar Pattern analysis code here
+}
+
+void AnalyzePinBarPattern()
+{
+   // Implement Pin Bar Pattern analysis code here
+}
+
+void AnalyzeHangedManPattern()
+{
+   // Implement Hanged Man Pattern analysis code here
+}
